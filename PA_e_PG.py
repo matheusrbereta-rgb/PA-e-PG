@@ -1,7 +1,7 @@
-escolha = input('PA ou PG? ').lower()
-numero = int(input('Escolha o primeiro número: '))
-termo = int(input('Qual posição você quer? '))
-razao = int(input('Qual é a razão? '))
+escolha = input('PA ou PG? '\n).lower()
+numero = int(input('Escolha o primeiro número: '\n))
+termo = int(input('Qual posição você quer? '\n))
+razao = int(input('Qual é a razão? '\n))
 contador = 0
 if escolha == "pa":
     while contador < termo + 1:
